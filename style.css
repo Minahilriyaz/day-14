@@ -1,0 +1,144 @@
+/*************** Introduction Javascript ****************/
+/*jab bhi hum kisi websites kay front ko dekhtay hai tu uss mai hum 3 Component ko parhtay hai pehla hota hai html jiss kay zarye hum websites ka pora structure create kertay hai aur dosra hota hai css jiss kay zarye hum websites kay uper styling ko apply kertay hai aur third sub say large component Javascript hota hai jiss kay zarye hum websites kay uper animation aur functionality ko add kertay hai*/ 
+
+
+/************* Console **************/
+  /*hum browser kay console ko use kerkay  javascript ki practice ker sakhtay hai console per humarah temporary code hota hai console REPL ko use kerta hai Read-evaluate-print-loop iss ka matlab hota hai hum console window kay andar jo code write kertay hai pehlay woh read hota hai aghir hum nay koi expression dia hai tu woh ussy evaluate karey gay Evaluate means calculation karana aur uss kay bad jo answer nikla tu uss nay answer ko print ker dia aur last step hota hai loop means again process ko repeat kerday na tu yeh humarah pass repl ka matlab hota hai*/
+  /*Example*/
+  /*ctrl+l per click kernay say humarah console kay uper likha hua code clear ho jye ga keyboard per upword key aur downword key ko press kernay say humari cheezay wapesi a aur ja sakhti hai*/
+
+
+  /****************** Javascript Variable *******************/
+  /*variables humarah pas aik container ki tarah hotay hai code kay andar hum jo information likhtay hai woh Variable ki form mai store hota hai. coding kay andar hum variable ki value ko change ker sakhtay hai. code kay andar jaha per humari actual value store hoti hai uss ko hum variable kehtay hai storage location ko hum variable kehtay hai javascript ko yaad rehta hai kay humaray porany walay variable ki value kia thi tu hum bad mai ja ker iss value ko reuse bhi ker sakhtay hai*/ 
+  /*Example*/
+  /*age = 23
+  iss kay andar age variable hai aur 23 variable ki value hai*/
+
+
+  /*************** Data type *************/
+/*Javascript mai humarah pas primitive data type hotay hai*/ 
+/*Example*/
+/*String
+Number
+Null
+Boolean
+Undefined
+Bigint
+Symbol*/
+
+/************* Number **************/
+/*iss ka matlab humarah variable number type ki value ko store karey ga*/ 
+/*Example*/
+/*14, -14*/
+/*iss tarah ke aur bhi value humaray pas javascript mai number kehlai gi integers bhi number kehlai gay aur decimal bhi number kehlai gay means point wali values example: 4.6 7.8 javascript kay andar sary kay sary possible number aik hi data type kay andar hotay hai*/
+
+
+/***************** Boolean ****************/
+/*boolean represent kerta hai true ya false ko*/
+
+
+/************** String in Js ***************/
+/*String mai hum apnay code kay text ko sequence of character mai kertay hai String ko hum javascript mai double quotes ya single quotes mai likhtay hai hum single quotes kay andar single quote nahi dal sakhtay double quotes kay andar bhi double quotes nahi dal sakhtay*/
+
+/***** String indices ****/
+/*string kay andar humaray index 0 say start hotay hai iss typed kay indexing ko hum 0 based indexing kehtay hai javascript mai humaray index zero say shuru hotay hai index bohot zyada use mai atay hai jab humay string kay individual corrector ko perform kerna hota hai*/ 
+/*hum string ki length ko bhi print kerva sakhtay hai lenght ko hum programming ki terms mai property kehtay hai property koi aik special value jo meray variable kay name kay saat associated hoti hai*/
+
+/***** Concatenation ****/
+/*iss ka matlab hota hai multiple string ko jorr dayna javascript mai hum multiple string ko jorr ker aik bari string bana sakhtay hai inn ko apas mai jornay kay liye + sign ka use kertay hai*/ 
+/*Example*/
+/*"Moon" + " " + "Sun"*/
+
+
+/****************** Undefined ******************/
+/*undefined javascript kay andar aik assa variable hota hai jiss variable ko hum nay abhi koi value nahi di uss ka typed humaray pass undefined hoga yafir hum nay assi value exist ki hai jo valid nahi hai bulkay galat hai tu waha per bhi undefined likha aye ga*/
+
+
+/**************** Null *****************/
+/*null humarah empty hota hai null likhnay kay liye hum initialized kertay hai null kay liye humay alak say ja ker assign kerna parhta hai null javascript kay andar keyword hai*/
+
+
+/*************** JS Operations ************/
+/*Operations jinhay hum calculation kay liye use kertay hai*/
+/*Example*/
+/*a + b a aur b operand hai aur + operator hai jo operation perform karey ga*/
+/*operand means jiss kay uper operation perform kia ja raha hai*/
+/*humaray pass operator mai +, -, /, *, % remaider operator iss mai divide kernay kay bad jo bajay ga woh remainder kehlai ga iss ki help say hum even aur odd number bta sakhtay hai divide kernay kay baad kuch remainder bach jye tu woh odd number kehlai ga aur aghir divide kernay kay baad kuch na remainder bachay tu woh even number kehlai ga*/  
+/*dosra operator hota hata hai Exponentiation (power operater) bhi kehtay hai means aghir kisi bhi number ko mujhe kisi dosray number say power ki tarah calculated karana hai*/
+/*Example*/
+/*3 ** 7*/
+
+
+/******************** NaN in js *****************/
+/*NaN ki full form hoti hai Not-A-Number means NaN javascript kay andar aik assi property hoti hai jo represent kerti hai Not-A-Number value ko. NaN javascript mai aik number tu hai lakin woh jiss value ko represent karahara hai woh number nahi hai woh aik valid number nahi hai bulkay invalid number hai*/
+/*Example*/
+/*0 / 0*/
+/*jab bhi humaray pas koi invalid number hota hai uss ky uper hum jitnay bhi operation perform karey gay humaray result mai bhi invalid number hi aye ga*/ 
+
+
+/************* Operator Precendence *************/
+/*Precendence ka matlab hota hai Priority yani humarah pas kisi bhi expression mai bohot saray operator hotay hai yeh humarah general order hota hai jiss ki according hum kisi expression ko solve kertay hai*/
+/*Example*/
+/*()
+**
+*, /, %
++, -*/
+/*jab bhi humay koi expression dia hota hai jiss mai multiple operator hotay hai tu hum issi order ko follow ker rahay hotay hai apnay expression ko solve kernay kay liye*/ 
+
+
+/************** Practice QS *************/
+/*let age = 23;
+age + 2 // After 2 year*/
+/*javascript kay andar Comment likhnay kay liye hum iss // ka use kertay hai*/
+/*let hindi = 90;
+let eng = 80;
+let math = 100;
+let avg = (hindi + eng + math) / 3;*/
+
+
+/**************** Assignment Operator *****************/
+/*= iss ko hum javascript mai assignment operator kehtay hai iss ka kaam hota hai Right per jo value likhi hai uss ko left side ki value kay andar store kerva day na*/
+/*iss ki short form bhi hoti hai*/
+/*Example*/
+/*age +=1 iis ka bhi basically yehi matlab hota hai hai jo nichay walay ka hai 
+age = age + 1*/
+
+
+/****************** Unary Operator *****************/
+/*yeh binary operator hotay hai binary ka matlab computer science mai generally 2 yani yeh 2 operand kay uper work kertay hai inn operation ko aur short form mai use kernay liye humaray pas unary operator hotay hai*/
+/*Example*/
+/*age++ aghir hum kisi value ko increase kerna chatay hai tu hum iss ka use ker sakhtay hai 
+age-- aghir hum kisi value ko decrease kerna chatay hai tu hum iss ka use ker sakhtay hai 
+++age  phelay ++ likhnay say yeh humaray pass pre-increment operator hota hai 
+age++ after ++ likha tu post-increment operator hoga*/
+
+
+/****************** Identifier Rules in JS ****************/
+/*humaray code kay andar har variable ka aik unique name hona chai har aik variable ka aik new name hona chai repeat nahi honay chai aur javascript kay variable ko hum identifier kehtay hai*/
+/*Rules*/
+/*variables kay name mai letter, digits, underscore, dollar sign(no space)
+hum apnay variable kay naam mai space nahi day sakhtay*/
+/*humaray variable ka naam kisi digit say start nahi ho sakhta bulkay letter(A-z), dollar sign($), ya underscore(_) say start ho ga
+variable kay naam mai capital aur small ka bhi yaad rakhna zarrori hota hai*/
+/*hum apnay variable ka naam reserved keyword nahi rakh sakhtay keywords means jinn ka matlab javascript mai pehlay say hi reserved hota hai example let, var, const etc*/
+/*Javascript aik case sensitive language jo cheez capital mai hai woh capital mai hi honi chai aur jo small mai hai woh small mai honi chai aghir assa nahi hua tu humaray pass error bhi a sakhta hai*/
+
+/******* CamelCase *******/
+/*case means identifier ko likhanay ka tarika jab bhi hum js mai convention ki baat karey gay ty woh camelCase hoga*/
+/*camelCase first sara small mai rahay ga aur next walay ka pehla capital hoga aur baqi sub small mai hogay*/
+/*snake-case iss sub small mai hoga aur between mai hum underscore ka use karey gay*/
+/*PascalCase iss mai starting capital words say hogi aur baqi saray small mai hogay*/
+
+
+/****************** TypeScript ***************/
+/*Javascript aik dynamics type language hai dynamics ka matlab jo cheez change ho sakhti hun javascript mai variable ka datatype change ho sakhta hai bulkay typeScript language aik static type language hai aghir iss mai hum nay koi variable define ker dia aur uss kay andar koi specific information rakh di tu baad mai hum ja ker uss kay datatype ko change nahi ker sakhtay. static means fixed aur dynamics means jo cheez change ker sakhay typescript static type aur js dynamics hoti hai typescript mai kuch rule extra hotay hai jinn ka humay use kerna hota hai takay hum js kay strict version ko apply ker pye
+typeScript ko designed kia hai Microsoft nay*/   
+
+
+
+
+
+
+
+
+
